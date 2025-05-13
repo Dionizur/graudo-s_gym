@@ -1,0 +1,262 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #f00;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f00;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+/* Seção de boas-vindas */
+.welcome {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 2.5rem;
+    color: #f00;
+    margin-bottom: 20px;
+}
+
+.welcome span {
+    color: #fff;
+}
+
+.status {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    color: #888;
+}
+/* Mantém os estilos anteriores... */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.planos {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.planos h2 {
+    color: #f00;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}
+
+.planos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.plano {
+    background-color: #222;
+    border: 2px solid #f00;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.plano:hover {
+    transform: scale(1.05);
+}
+
+.plano h3 {
+    color: #f00;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.plano p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.plano ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plano ul li {
+    margin: 8px 0;
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c00;
+}
+
+.destaque {
+    border: 3px solid gold;
+}
+/*parte do login e cadasytro do meu ovo*/
+/* Estilo para páginas de login/cadastro */
+body.auth {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-container {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    text-align: center;
+    color: #fff;
+}
+
+.auth-container h1 {
+    margin-bottom: 25px;
+    color: #f00;
+    font-size: 2rem;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container label {
+    text-align: left;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.auth-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.auth-container button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+    background-color: #c00;
+}
+
+.auth-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.auth-link a {
+    color: #f00;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}

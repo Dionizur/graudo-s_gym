@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Graudos Gym</title>
+    <title>Graudos Gym</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Seja bem-vindo ao sistema Graudos Gym!</h1>
-    <p>Você está logado como: <strong>Admin</strong></p>
+    <header>
+        <div class="logo">GRAUDO's GYM</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="#">Treinos</a></li>
+                <li><a href="login.html">Entrar</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner -->
+        <section class="banner">
+            ,<img src="assets/foto-home.jpg" alt="">
+
+            <div class="banner-text">
+                <h1>Transforme-se na Graudos Gym</h1>
+                <p>Gorda passa longe.</p>
+            </div>
+        </section>
+
+        <!-- Mensagem de boas-vindas -->
+        <section class="welcome">
+            <h2>Bem-vindo, <span>Admin</span>!</h2>
+            <p class="status">Você está logado como: <strong>Administrador do sistema</strong></p>
+        </section>
+
+        <!-- Planos -->
+        <section class="planos">
+            <h2>Nossos Planos</h2>
+            <div class="planos-container">
+                <div class="plano">
+                    <h3>Mensal</h3>
+                    <p>R$ 99,90/mês</p>
+                    <ul>
+                        <li>Treinos ilimitados</li>
+                        <li>Acesso a todas as unidades</li>
+                        <li>Acompanhamento básico</li>
+                    </ul>
+                    <a href="#" class="btn">Assinar</a>
+                </div>
+                <div class="plano destaque">
+                    <h3>Trimestral</h3>
+                    <p>R$ 269,90</p>
+                    <ul>
+                        <li>Desconto especial</li>
+                        <li>Consultoria gratuita</li>
+                        <li>Brinde exclusivo</li>
+                    </ul>
+                    <a href="#" class="btn">Assinar</a>
+                </div>
+                <div class="plano">
+                    <h3>Anual</h3>
+                    <p>R$ 899,00</p>
+                    <ul>
+                        <li>Melhor custo-benefício</li>
+                        <li>Personal Trainer 1x por semana</li>
+                        <li>Camisa oficial Graudos Gym</li>
+                    </ul>
+                    <a href="#" class="btn">Assinar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Graudos Gym. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
